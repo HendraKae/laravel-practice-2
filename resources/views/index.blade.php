@@ -179,6 +179,7 @@
             <div class="content-img">
                 <div class="wrapper-img1">
                     <img src="{{ asset("assets/images/img-left-about.jpeg") }}" alt="">
+                    <h1>Before mangroves were planted</h1>
                 </div>
                 <div class="bg-arrow">
                     <div class="logo"><img src="{{ asset('assets/images/logo-arrow.png') }}" alt=""></div>
@@ -186,6 +187,7 @@
                 </div>
                 <div class="wrapper-img2">
                     <img src="{{ asset("assets/images/img-right-about.png") }}" alt="">
+                    <h1>After mangroves were planted</h1>
                 </div>
             </div>
         </section>

@@ -339,6 +339,9 @@ body {
 
 .about {
     padding: 13% 5% 0 5%;
+    background-color: #fff;
+    height: 950px;
+
     .logo {
         display: flex;
         justify-content: center;
@@ -376,6 +379,14 @@ body {
         justify-content: space-between;
         position: relative;
         .wrapper-img1 {
+            text-align: center;
+            h1 {
+                padding-top: 24px;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 33px;
+                letter-spacing: -0.005em;
+            }
             img {
                 width: 605px;
                 height: 310px;
@@ -383,6 +394,14 @@ body {
             }
         }
         .wrapper-img2 {
+            text-align: center;
+            h1 {
+                padding-top: 24px;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 33px;
+                letter-spacing: -0.005em;
+            }
             img {
                 border-radius: 24px;
                 width: 605px;
@@ -395,7 +414,7 @@ body {
             height: 120px;
             border-radius: 30px;
             background-color: #fff;
-            top: 40%;
+            top: 35%;
             left: 41.9%;
             .logo {
                 img {
