@@ -14,7 +14,7 @@ This website is a Frontend project developed using Laravel 11 and SASS. With Bla
 Here are a few tips on how to use this project :
 
 -   $ git clone https://github.com/HendraKae/greenhavenproject_ORDO.git
--   $ cd testpertama
+-   $ cd greenhavenproject_ORDO
 -   $ composer install
 -   $ cp .env.example .env
 -   $ php artisan key:generate
