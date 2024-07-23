@@ -9,7 +9,7 @@
 
 ## How to use this project
 
-This website is a Frontend project developed using Laravel 11 and SASS. With Blade and SCSS, it includes a herosection, workflow, services, projects, testimonial, contact, and footer.
+This website is a Frontend project developed using Laravel 11 and SASS. With Blade and SCSS.
 
 Here are a few tips on how to use this project :
 
