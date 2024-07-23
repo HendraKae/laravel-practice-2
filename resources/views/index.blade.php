@@ -276,6 +276,348 @@
                 </div>
             </div>
         </section>
+        
+        <section class="sponsorship">
+            <div class="container">
+                <div class="header">
+                    <h1>Sponsorship Packages</h1>
+                    <p>Our sponsorship package offers branding, promotional opportunities, and visibility at <br/> our event, ideal for enhancing company presence and community engagement.</p>
+                </div>
+                <div class="content">
+                    <h1 class="title">Personal Sponsorship Package</h1>
+                    <div class="table">
+                        <div class="table-head">
+                            <div class="box-title">
+                                <h1>Membership Tier</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Min. Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Min. Buy</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Benefits</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <h1>Action</h1>
+                            </div>
+                        </div>
+                        <div class="table-body">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon1-sponsorship.png") }}" alt="">
+                                <h1>Seedling Scout</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>5 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 75K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>4,900 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="table-body bg-light">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon2-sponsorship.png") }}" alt="">
+                                <h1>Sapling Savior</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>10 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 150K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge + Pin</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>4,300 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="table-body">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon3-sponsorship.png") }}" alt="">
+                                <h1>Tree Titan</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>20 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 300K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge + Pin</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>15,000 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="table-body bg-light">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon4-sponsorship.png") }}" alt="">
+                                <h1>Mangrove Master</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>50 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 750K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge + Pin + Bag</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>5,000 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="table-body">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon5-sponsorship.png") }}" alt="">
+                                <h1 class="grove">Guardian of the Grove</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>100 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 1,500K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge + Pin + Bag</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>300 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="table-body bg-light">
+                            <div class="box-title">
+                                <img class="icon" src="{{ asset("assets/images/icon6-sponsorship.png") }}" alt="">
+                                <h1>Mangrove Maven</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>200 Seeds</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>IDR 3,000K</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>Badge + Pin + Bag</h1>
+                            </div>
+                            <div class="box-title center">
+                                <h1>10 Donors</h1>
+                            </div>
+                            <div class="box-title center right">
+                                <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="line-hr"></div>
+        <section class="corporat">
+            <h1 class="title">Corporate Sponsorship Package</h1>
+                <div class="table">
+                    <div class="table-head">
+                        <div class="box-title">
+                            <h1>Benefits</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>Eco Trailblazers</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>Green Innovators</h1>
+                        </div>
+                        <div class="box-title center right">
+                            <h1>Eco Vanguard</h1>
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="box-title">
+                            <h1>Price</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>15 Million IDR</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>30 Million IDR</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>45 Million IDR</h1>
+                        </div>
+                    </div>
+                    <div class="table-body bg-light">
+                        <div class="box-title">
+                            <h1>CO2 Sequestration</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>22,5 ton/year</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>45 ton/year</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>67,5 ton/year</h1>
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="box-title">
+                            <h1>Number of Tress</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>1000 Trees</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>2000 Trees</h1>
+                        </div>
+                        <div class="box-title center">
+                            <h1>3000 Trees</h1>
+                        </div>
+                    </div>
+                    <div class="table-body bg-light">
+                        <div class="box-title">
+                            <h1>Logo on JCI Banner</h1>
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="box-title">
+                            <h1>Logo on Communal Stainless Plate</h1>
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body bg-light">
+                        <div class="box-title">
+                            <h1>Considered as Main Sponsor</h1>
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="box-title">
+                            <h1>Dedicated Stainless Plate</h1>
+                        </div>
+                        <div class="box-title center">
+                            {{-- <img src="{{ asset("assets/images/tick-circle.png") }}" alt=""> --}}
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body bg-light">
+                        <div class="box-title">
+                            <h1>Report Update on Planted Trees</h1>
+                        </div>
+                        <div class="box-title center">
+                            {{-- <img src="{{ asset("assets/images/tick-circle.png") }}" alt=""> --}}
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="box-title">
+                            <h1>Logo on Event Clothings</h1>
+                        </div>
+                        <div class="box-title center">
+                            {{-- <img src="{{ asset("assets/images/tick-circle.png") }}" alt=""> --}}
+                        </div>
+                        <div class="box-title center">
+                            {{-- <img src="{{ asset("assets/images/tick-circle.png") }}" alt=""> --}}
+                        </div>
+                        <div class="box-title center">
+                            <img src="{{ asset("assets/images/tick-circle.png") }}" alt="">
+                        </div>
+                    </div>
+                    <div class="table-body bg-blue">
+                        <div class="box-title">
+                            <h1>Make a Donation</h1>
+                        </div>
+                        <div class="box-title center">
+                            <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right-blue.png") }}" alt=""></button>
+                        </div>
+                        <div class="box-title center">
+                            <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right-blue.png") }}" alt=""></button>
+                        </div>
+                        <div class="box-title">
+                            <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right-blue.png") }}" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="donate">
+            <div class="container">
+                <div class="header">
+                    <h1>Donate Today and be a <br/>Guardian of the Green Belt.</h1>
+                    <p>Join us in our mission to rejuvenate and protect our shorelines <br/> by donating to our mangrove planting project. </p>
+                </div>
+                <div class="content">
+                    <button>Support Our Mission <img src="{{ asset("assets/images/arrow-right.png") }}" alt=""></button>
+                </div>
+                <div class="wrapper-img">
+                    <img class="img-1" src="{{ asset("assets/images/donate-img1.png") }}" alt="">
+                    <img class="img-2" src="{{ asset("assets/images/donate-img2.png") }}" alt="">
+                    <img class="img-3" src="{{ asset("assets/images/donate-img3.png") }}" alt="">
+                    <img class="img-4" src="{{ asset("assets/images/donate-img4.png") }}" alt="">
+                    <img class="img-5" src="{{ asset("assets/images/donate-img5.png") }}" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <h1>Nama yang Mengerjakan Test : Hendra Aditya Pratama</h1>
+        </footer>
+
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
