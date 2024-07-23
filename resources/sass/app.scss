@@ -38,6 +38,10 @@ body {
             list-style-type: none;
             a {
                 color: #000;
+                transition: 0.3s ease;
+                &:hover {
+                    color: #2d9444;
+                }
             }
         }
     }
@@ -55,6 +59,10 @@ body {
         border: 1px solid #dddddd;
         font-family: "Outfit", sans-serif;
         cursor: pointer;
+        transition: 0.3s ease;
+        &:hover {
+            border: 1px solid #336913;
+        }
     }
 }
 
@@ -135,6 +143,10 @@ body {
                         gap: 10px;
                         position: absolute;
                         right: 30px;
+                        transition: transform 0.3s ease;
+                        &:hover {
+                            transform: scale(1.05);
+                        }
                     }
                 }
                 .wrapper-meter {
@@ -505,6 +517,10 @@ body {
                             justify-content: center;
                             align-items: center;
                             cursor: pointer;
+                            transition: transform 0.3s ease;
+                            &:hover {
+                                transform: scale(1.05);
+                            }
                         }
                     }
                 }
@@ -849,6 +865,10 @@ body {
                 color: #fff;
                 background-color: #336913;
                 font-family: "Outfit", sans-serif;
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: scale(1.05);
+                }
                 img {
                     width: 8px;
                 }
