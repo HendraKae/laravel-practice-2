@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WEBSITE</title>
 
+        {{-- swiper --}}
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
         {{-- font --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +42,7 @@
                             <div class="icon">
                                 <img src="{{ asset('assets/images/icon-tree.png') }}" />
                             </div>
-                            <p><span>5,690</span>/ 10,000 Pohon</p>
+                            <p><span>5,690 </span>/ 10,000 Pohon</p>
                             <button>Support Our Mission <img src="{{ asset('assets/images/arrow-right.png') }}" /></button>
                         </div>
                         <div class="wrapper-meter">
@@ -191,5 +197,108 @@
                 </div>
             </div>
         </section>
+        <section class="event">
+            <div class="container">
+                <div class="header">
+                    <h1>Event Summary</h1>
+                    <p>We give you a brief overview of the event to give you a glimpse of what we're doing <br/>
+                        in the Green Haven Project, download the detailed PDF to see how you can get involved</p>
+                </div>
+                <div class="content">
+                    <div class="wrapper">
+                        <div class="time">
+                            <h2>26/04/2024</h2>
+                            <h1>08:00 - 11:00 WIB</h1>
+                            <p>Join the impactful journey of planting mangroves,  <br/>
+                                where you'll learn, collaborate with locals, earn recognition, <br/>
+                                and share your story through media coverage</p>
+                            <div class="btn">
+                                <button>
+                                    <div class="wrapper-img">
+                                        <img src="{{ asset("assets/images/document-download.png") }}" />
+                                    </div>
+                                    View Event Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-img">
+                                            <img src="{{ asset("assets/images/slide-img.png") }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-img">
+                                            <img src="{{ asset("assets/images/slide-img.png") }}" alt="">
+                                        </div>    
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-img">
+                                            <img src="{{ asset("assets/images/slide-img.png") }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-swiper">
+                                    <div class="swiper-button-prev">
+                                        <img src="{{ asset("assets/images/leftarw.png") }}" alt="">
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <img src="{{ asset("assets/images/rightarw.png") }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="box">
+                            <h1>01</h1>
+                            <p>Introducing the beauty  <br/>of mangroves on a journey <br/> to the planting site.</p>
+                        </div>
+                        <div class="box box-secondary">
+                            <h1>02</h1>
+                            <p>Introducing the beauty  <br/>of mangroves on a journey <br/> to the planting site.</p>
+                        </div>
+                        <div class="box box-secondary">
+                            <h1>03</h1>
+                            <p>Introducing the beauty  <br/>of mangroves on a journey <br/> to the planting site.</p>
+                        </div>
+                        <div class="box box-secondary">
+                            <h1>04</h1>
+                            <p>Introducing the beauty  <br/>of mangroves on a journey <br/> to the planting site.</p>
+                        </div>
+                        <div class="box box-secondary">
+                            <h1>05</h1>
+                            <p>Introducing the beauty  <br/>of mangroves on a journey <br/> to the planting site.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            });
+        </script>
     </body>
 </html>
