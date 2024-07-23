@@ -22,7 +22,7 @@
     <body>
         <nav class="navbar">
             <div class="logo">
-                <img src="{{ asset('assets/images/logobrand.png') }}" />
+                <a href="#"><img src="{{ asset('assets/images/logobrand.png') }}" /></a>
             </div>
             <ul class="nav">
                 <li><a href="#">About Green Haven</a></li>
