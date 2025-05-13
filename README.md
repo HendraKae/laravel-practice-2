@@ -11,6 +11,12 @@
 
 This website is a Frontend project developed using Laravel 11 and SASS. With Blade and SCSS.
 
+<p>
+🎯 A static landing page built based on a fixed-size design using [HTML/CSS | Sass | Laravel Blade | etc.]. <br />
+⚠️ This project is non-responsive, as the original design was not made for different screen sizes. <br/>
+🛠️ Created for frontend layout and slicing practice purposes.
+</p>
+
 Here are a few tips on how to use this project :
 
 -   $ git clone https://github.com/HendraKae/greenhavenproject_ORDO.git
